@@ -39,3 +39,4 @@ void my_dialog_test::default_construction()
   d.close();
   QVERIFY(d.isHidden());
 }
+
