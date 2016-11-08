@@ -8,7 +8,7 @@ QT += testlib
 SOURCES += my_dialog.cpp
 FORMS += my_dialog.ui
 HEADERS += my_dialog.h
-RESOURCES += travis_qmake_gcc_cpp14_gcov_oclint_qt5_qtest.qrc
+RESOURCES += travis_qmake_gcc_cpp14_boost_gcov_oclint_qt5_qtest.qrc
 
 # Unique files
 SOURCES += qtmain_test.cpp
