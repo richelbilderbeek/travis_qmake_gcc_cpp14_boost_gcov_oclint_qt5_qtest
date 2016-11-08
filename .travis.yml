@@ -23,6 +23,11 @@ install:
   # OCLint
   - ./install_oclint.sh
 
+# Boost
+addons: 
+  apt: 
+    packages: libboost-all-dev
+
 # Start virtual X server, from https://docs.travis-ci.com/user/gui-and-headless-browsers/
 before_script:
   - "export DISPLAY=:99.0"
